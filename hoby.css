@@ -1,0 +1,54 @@
+body {
+    background-image: url("img/winter.jpg");
+    background-color: #c7b39b;
+    overflow: scroll;
+    background-size: 100%;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+.menu{
+    padding: 0px;
+    margin: 0px;
+}
+.menu li{
+    float: left;
+    display: block;
+    width: 200px;
+    border: 1px solid #000;
+    background: rgba(56, 25, 19, 0.76);
+}
+.menu li:hover{
+    background: rgba(102, 18, 0, 0.29);
+
+}
+.new{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background: rgba(250, 248, 243, 0.65);
+}
+img{
+
+    width: 500px;
+    height: 300px;
+}
+div.tabl{
+    background: rgba(252, 255, 127, 0.82);
+
+}
+td {
+    background: #009383; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    text-align: left; /* Выравнивание по левому краю */
+}
+img.reklamaimg{
+    height: 400px;
+    width: 500px;
+}
+img.reklamaimg:hover{
+    background: rgba(18, 54, 102, 0.29);
+}

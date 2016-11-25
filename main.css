@@ -1,0 +1,32 @@
+body {
+    background-image: url("img/teatr.jpg");
+    background-color: #c7b39b;
+    overflow: scroll;
+    background-size: 100%;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+.menu{
+    padding: 0px;
+    margin: 0px;
+}
+.menu li{
+    float: left;
+    display: block;
+    width: 200px;
+    border: 1px solid #000;
+    background: rgba(56, 25, 19, 0.76);
+}
+.menu li:hover{
+    background: rgba(102, 18, 0, 0.29);
+}
+.new{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    background: rgba(255, 253, 248, 0.82);
+}
